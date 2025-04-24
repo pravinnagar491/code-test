@@ -8,7 +8,7 @@ A brief description of what this project does and who it's for
 
 **JavaScript** - use plain javascript code for get data from json file render on index file.
 
-**Github** - For live site demo can uploaded on https://pravinnagar491.github.io/code-senior-test .
+**Github** - For live site demo can uploaded on https://pravinnagar491.github.io/code-test .
 
 # Notes
 

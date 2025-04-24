@@ -1,0 +1,95 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.title{
+    font-size: 24px;
+    color: #202223;
+}
+
+.category{
+    font-size: 16px;
+    color: #1691db;
+}
+
+.headline{
+    font-size: 18px;
+}
+
+.travel-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.midsection{
+    display: flex;
+}
+
+.midsection div p{
+    margin: 0px 15px;
+    color: #606669;
+}
+
+.travel-section .card-div{
+    margin: 10px;
+    border-bottom: 1px solid gray;
+    min-height: 300px;
+}
+
+.main-card{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.midsection .para-section p{
+    display: block;
+    color: #606669;
+    font-size: 16px;
+}
+
+.midsection .para-section h1{
+    display: none;
+}
+
+.midsection, .main-card div {
+    margin: 15px 0px;
+}
+
+.midsection .img-section img{
+    width: 200px;
+}
+
+.main-card div img{
+    width: 100%;
+}
+
+ @media screen and (max-width: 767px) {
+    .travel-section {
+        display: block;
+        overflow-x: hidden;
+    }
+
+    .midsection .img-section img, .main-card div img{
+        width: 100%;
+    }
+
+    .midsection .para-section p, .card-div h1.title{
+        display: none;
+    }
+
+    .midsection .para-section h1, .card-div h1.title.show-bt{
+        display: block;
+        margin: 0px 15px;
+    }
+
+    .travel-section .card-div {
+        margin: 10px;
+        border-bottom: 1px solid gray;
+        min-height: auto;
+        padding-bottom: 20px;
+        width: 95%;
+    }
+  }
+
